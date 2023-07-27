@@ -1,2 +1,6 @@
-.body + main { display:flex
+.body { 
+    display:flex
+}
+.main {
+   display:flex 
 }
