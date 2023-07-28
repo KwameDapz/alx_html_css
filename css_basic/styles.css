@@ -17,3 +17,7 @@ aside {
 body article+aside {
     overflow-y: auto;
 }
+body {
+    color: red;
+    background-color: blue;
+}
