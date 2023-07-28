@@ -21,3 +21,6 @@ article {
     color: red;
     background-color: blue;
 }
+main {
+    border-style: dashed;
+}
