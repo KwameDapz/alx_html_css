@@ -156,6 +156,13 @@
       ============================= */
   
   ul.row {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+  }
+
+  /* Grid section */
+  .row {
     display: flex;
   }
    
