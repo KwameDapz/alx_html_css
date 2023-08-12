@@ -178,6 +178,7 @@
   
   
   .nav {
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -188,9 +189,7 @@
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
-    letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
+    letter-spacing: var(--nav-item-letter-spacing); 
   }
   
   .nav .nav-link {
@@ -218,6 +217,10 @@
   .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
+  }
+
+  .nav .nav-item + .nav-item {
+    margin: 0 0 0 2rem;
   }
   
   /* Header
